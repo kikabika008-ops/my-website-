@@ -1,66 +1,51 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   min-height: 100vh;
-  background: #111;
-  color: #fff;
+  background: #111111;
+  color: white;
   font-family: Arial, sans-serif;
-  overflow: hidden;
 }
 
 .hero {
   position: relative;
   z-index: 1;
-  max-width: 760px;
-  padding: 120px 42px;
+  max-width: 800px;
+  padding: 100px 45px;
 }
 
 h1 {
-  font-size: 72px;
-  margin: 0 0 30px;
+  font-size: 64px;
 }
 
 p {
-  color: #bbb;
-  font-size: 24px;
+  color: #bbbbbb;
+  font-size: 22px;
   line-height: 1.5;
 }
 
-.background-shape {
-  position: absolute;
-  z-index: 0;
-  width: 620px;
-  height: auto;
-  top: 190px;
-  left: 230px;
-  opacity: 0.65;
+a {
+  color: white;
 }
 
 .buttons {
   display: flex;
-  gap: 16px;
-  margin: 35px 0 70px;
+  gap: 15px;
+  margin: 35px 0;
 }
 
 .button {
-  padding: 14px 22px;
+  padding: 14px 20px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  transition: 0.2s;
 }
 
 .primary {
   background: #970000;
-  color: white;
 }
 
 .secondary {
   border: 1px solid white;
-  color: white;
 }
 
 .button:hover {
