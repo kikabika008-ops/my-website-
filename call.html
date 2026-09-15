@@ -1,18 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мої роботи — Mykyta Alieksieiev</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<h1> Портфоліо </h1>
-    <p>Вітаю! Тут спить моє портфоліо.</p>
-    
-    <img src="Грустный котик.jpeg" alt="Mykyta Aliekseev"
-    width="250">
 
+<body>
+  <main class="portfolio-page">
+    <a class="back-link" href="./index.html">← На головну</a>
+
+    <h1>Мої роботи</h1>
+    <p class="portfolio-text">
+      Тут зібрані мої навчальні та власні вебпроєкти.
+    </p>
+
+    <section class="projects">
+      <article class="project-card">
+        <img src="Грустный котик.jpeg" alt="Скріншот першого проєкту">
+
+        <div class="project-info">
+          <h2>Мій перший сайт</h2>
+          <p>Персональна сторінка, створена за допомогою HTML і CSS.</p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+
+          <a class="project-link" href="./index.html">Дивитись проєкт →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-placeholder">Наступний проєкт</div>
+
+        <div class="project-info">
+          <h2>Новий проєкт</h2>
+          <p>Тут з’явиться опис моєї наступної роботи.</p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
 </body>
 </html>
