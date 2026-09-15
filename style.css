@@ -159,3 +159,55 @@ a {
   left: 230px;
   opacity: 0.65;
 }
+
+
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 50px 20px;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .portfolio-page {
+    padding: 40px 20px;
+  }
+
+  .portfolio-page h1 {
+    font-size: 42px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 25px;
+  }
+
+  .project-card img,
+  .project-placeholder {
+    height: 190px;
+  }
+
+  .project-info {
+    padding: 18px;
+  }
+
+  .background-shape {
+    width: 380px;
+    top: 180px;
+    left: 20px;
+  }
+}
